@@ -1,0 +1,7 @@
+.DS_STORE
+config.*
+node_modules/*
+logs/*
+config/*
+*.log
+package-lock.json

@@ -1,0 +1,25 @@
+{
+    "description": "The research assistant for journalists, authors, academics, and anyone using the web to expand their knowledge",
+    "manifest_version": 2,
+    "name": "Researcher",
+    "version": "0.0.1",
+    "homepage_url": "https://github.com/j-norwood-young/researcher-plugin",
+    "icons": {
+        "48": "icons/beasts-48.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": "icons/researcher.svg",
+        "theme_icons": [
+            {
+                "light": "icons/researcher.svg",
+                "dark": "icons/researcher.svg",
+                "size": 32
+            }
+        ],
+        "default_title": "Researcher",
+        "default_popup": "popup/researcher_popup.html"
+    }
+}
